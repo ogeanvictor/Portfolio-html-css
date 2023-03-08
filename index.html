@@ -9,36 +9,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/nav-action.css">
 
-    <title>Document</title>
+    <title>Gean Victor</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>Duque</h1>
 
         <nav>
-            <a href="" lang="en">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contatos</a>
-            <a href="" lang="en" id="button">Download CV</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a href="" lang="en" class="main-button">Download CV</a>
         </nav>
     </header>
 
-    <section>
-        <div id="title">
-            <h1>Gean Victor</h1>
-            <h2>FullStack Developer</h2>
-        </div>
+    <section class="main-banner">
+        <div class="main-wrapper">
+            <div class="main-box">
+                <h1 class="main-title">Gean Victor</h1>
+                <h2 class="main-subtitle">FullStack Developer</h2>
+            </div>
 
-        <div >
-            <a href="" class="buttons">Download CV</a>
-            <a href="" class="buttons">Contatos</a>
-        </div>  
+            <div class="button-navigation">
+                <a href="" class="main-button">Download CV</a>
+                <a href="" lang="en" class="main-button">Contatos</a>
+            </div>
+        </div>
     </section>
-    
+     
 </body>
 </html>
