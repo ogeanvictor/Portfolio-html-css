@@ -9,8 +9,12 @@
 }
 
 .card-projects .projects {
-    margin-right: 150px;
     width: 280px;
     height: 280px;
-    margin-bottom: 100px;
+}
+
+.card-projects .wrapper-projects {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
 }
