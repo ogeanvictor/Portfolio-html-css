@@ -14,3 +14,16 @@
     background-color: #007369;
     transform: scale(1.08);
 }
+
+.main-button._form {
+    height: 60px;
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'Fira Code';
+    font-weight: 300;
+}
+
+.main-button._form:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
