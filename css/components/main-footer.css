@@ -10,3 +10,13 @@
     margin-right: 20px;
     margin-left: 20px;
 }
+
+.main-footer .socials img {
+    width: 45px;
+    height: 45px;
+}
+
+.main-footer .socials .github {
+    background-color: white;
+    border-radius: 8px;
+}

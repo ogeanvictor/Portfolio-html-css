@@ -1,12 +1,16 @@
 .main-banner {
     box-sizing: border-box;
-    background-image: url(../../assets/photo-banner.png);
+    background-image: url(../../assets/background-banner.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 730px;
     border-bottom: 10px solid #2C2A4A;
     padding-top: 115px;
     padding-left: 90px;
+}
+
+.main-banner::before {
+    opacity: 0.6;
 }
 
 .main-banner .main-wrapper {
